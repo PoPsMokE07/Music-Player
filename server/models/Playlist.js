@@ -21,11 +21,6 @@ const PlaylistSchema = new mongoose.Schema(
 			type: Array,
 			default: [],
 		},
-		isPrivate: {
-			type: Boolean,
-			required: true,
-			default: false,
-		},
 		type: {
 			type: String,
 			required: true,
